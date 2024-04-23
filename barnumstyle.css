@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Euphoria+Script&family=Libre+Baskerville:wght@700&family=Playfair+Display&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #f1ebe5;
+    margin: 0;
+}
+
+.nav {
+    width: 100%;
+    text-align: center;
+    height: 70px;
+    border-bottom: #f1ebe5;
+}
+
+header {
+	font-family: 'Playfair Display';
+	font-weight: bolder;
+	font-size: 20px;
+	/* letter-spacing: px; */
+	width: 200px;
+	text-align: center;
+	letter-spacing: 1px;
+	justify-content: center;
+    text-decoration: none;
+}
+
+.tabs {
+	display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: 0px 70px;
+	border-bottom: solid 2px #f1ebe5;
+}
+
+a {
+    text-decoration: none;
+    color: #f1ebe5;
+}
+
+.tab {
+	color: #f1ebe5;
+	margin: 10px;
+	cursor: pointer;
+	margin-top: 25.5px;
+	margin-bottom: 25px;
+	font: 'Playfair Display';
+	font-weight: bolder;
+	text-align: center;
+
+}
+
+.link {
+	text-decoration: none;
+	color: #f1ebe5;
+	font-size: 20px;
+	font-weight: bolder;
+	font-family: 'Playfair Display';
+	letter-spacing: 1px;
+	text-align: center;
+	justify-content: center;
+}
+
+.container {
+	background-image: url(https://i.pinimg.com/736x/29/62/aa/2962aaef5b672527d1a365d43b83ebba.jpg);
+	background-clip: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+	background-position: center center;
+    width: 100%;
+    height: 780px;
+    margin: 0;
+}
+
+.welcome {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	height: 710px;
+	width: 100%;
+	color: #f1ebe5;
+	font-family: 'Playfair Display';
+}
+
+.welcome > h1 {
+	font-size: 65px;
+	font-weight: bolder;
+	font-style: italic;
+	margin: 10px;
+}
+
+.welcome > h2 {
+	font-size: 35px;
+	font-weight: bolder;
+	margin: 10px;
+}
+
+.quote {
+	height: 250px;
+	width: 100%;
+    background: #f1ebe5;
+    color: #c48621;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.quotation > h1 {
+	font: 'Playfair Display';
+	font-size: 55px;
+	font-style: italic;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	width: 80%;
+}
+
+.thesis {
+	display: flex;
+	width: 100%;
+	height: 750px;
+	background-image: url(https://i.pinimg.com/736x/90/ac/e0/90ace08687cb43abb234d2d4b1a69abf.jpg);
+	background-repeat: no-repeat;
+	background-clip: cover;
+	background-size: 100%;
+	background-position: center center;
+	color: #e4d0b1;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.statement {
+	display: flex;
+	margin: 10px;
+	justify-content: center;
+}
+
+.statement > h1 {
+	font: 'Playfair Display';
+	font-size: 85px;
+	font-style: italic;
+	text-align: left;
+	width: 650px;
+	color: #e4d0b1;
+	justify-content: left;
+}
+
+.state {
+	width: 80%;
+	height: 70%;
+    display: flex;
+    background-color: #f8f0de;
+    opacity: 90%;
+    background-size: 100%;
+    margin-top: 10px;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.state > p {
+	font: 'Playfair Display';
+    font-size: 35px;
+	height: 70%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    color: #89321b;
+    /* margin: 30px; */
+}
+
+.read-more {
+	font-family: 'Playfair Display';
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	border-radius: 3px;
+	color: #89321b;
+	width: 20%;
+	height: 50px;
+}
+
+.state > a {
+	border: #89321b;
+}
+
+#characters {
+	width: 100%;
+	height: 550px;
+	display: flex;
+	flex-flow: wrap column;
+}
+
+.pt, .lind, .stratton {
+	width: 33.3%;
+	height: 100%;
+	display: flex;
+	flex-flow: nowrap column;
+	justify-content: space-evenly;
+	align-items: center;
+	text-align: center;
+	font:'Playfair Display';
+	font-weight: bold;
+	font-size: 25px;
+	color: #c48621;
+}
+
+.name-link {
+	display: flex;
+	justify-content: center;
+	object-fit: cover;
+	height: 15%;
+	text-decoration: none;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	text-align: center;
+	font:'Playfair Display';
+	font-weight: bold;
+	font-size: 25px;
+	color: #c48621;
+}
+
+.stratton > img {
+	object-fit: cover;
+	height: 65%;
+}
+
+#sources{
+	display: flex;
+    flex-flow: wrap row;
+    width: 100%;
+    height: 650px;
+    background: #89321b;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#sources > h1 {
+	font: 'Playfair Display';
+	color: #f1ebe5;
+	width: 100%;
+	text-align: center;
+	letter-spacing: 10px;
+	font-size: 50px;
+	font-style: italic;
+}
+
+.mla {
+	background-color: #f1ebe5;
+    height: 80%;
+    width: 80%;
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+}
+
+.mla > p {
+	font: 'Playfair Display';
+	font-size: 15px;
+	color: #89321b;
+	display: flex;
+	flex-flow: wrap;
+	font-weight: bold;
+	margin: 15px;
+}
+
+.thank-you {
+	background-image: url(https://www.intofilm.org/intofilm-production/scaledcropped/970x546https%3A/s3-eu-west-1.amazonaws.com/images.cdn.filmclub.org/film__19087-the-greatest-showman--hi_res-c933cbc6.jpg/film__19087-the-greatest-showman--hi_res-c933cbc6.jpg);
+	display: flex;
+    flex-flow: wrap row;
+    width: 100%;
+    height: 250px;
+	object-fit: cover;
+    background: #f1ebe5;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.thank-you > h1 {
+	font-size: 50px;
+	font: 'Playfair Display';
+	font-style: italic;
+	color: #c48621;
+}
